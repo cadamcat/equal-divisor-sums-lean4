@@ -35,7 +35,7 @@ lake build
 
 OpenAI's `lake update` hook may exit with an error beginning `iut: Lake resolved an unexpected checkout at …` after it has resolved the dependencies; run the patch script next. It applies OpenAI's Lean 4.34.1 compatibility patches to the fetched packages and can be run again. `lake exe cache get` fetches compiled Mathlib; the other dependencies are compiled from source.
 
-`scripts/verify.sh` builds the libraries and the challenge, compares the elaborated challenge and library statements and the definition of `h`, rejects forbidden constructs, and checks the theorem's axioms. An open proof shows up as `sorryAx` and makes it exit with status 2.
+`scripts/verify.sh` builds the libraries and the challenge, compares the elaborated challenge and library statements and the definition of `h`, rejects forbidden constructs, and checks the theorem's axioms. An open proof shows up as `sorryAx` and makes it exit with status 2. The recorded outputs of these checks for v1.0.0, with Comparator and kernel replay, are in [docs/verification.md](docs/verification.md).
 
 ## Fixed dependencies
 

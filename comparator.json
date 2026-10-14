@@ -4,9 +4,7 @@
   "theorem_names": [
     "Erdos824.erdos_824"
   ],
-  "definition_names": [
-    "Erdos824.h"
-  ],
+  "definition_names": [],
   "permitted_axioms": [
     "propext",
     "Quot.sound",
