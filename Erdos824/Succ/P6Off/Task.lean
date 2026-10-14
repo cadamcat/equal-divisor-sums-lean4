@@ -7,7 +7,7 @@ attribute [local instance] Classical.propDecidable
 namespace Erdos824.Succ.P6Off
 open Erdos821.Blueprint Erdos821.Blueprint.Analytic Erdos824.Succ.S56Core
 
-/-- The post-Cauchy half of §5. K₀ is fixed data here. Exact signed determinant
+/-- The post-Cauchy half of §6. K₀ is fixed data here. Exact signed determinant
 reconstruction, character congruence, and Fourier separation in log m, log m',
 log z turn this literal off-diagonal sum into ShiftEstimate correlations.
 All cutoff derivative constants and powers are fixed before B. -/

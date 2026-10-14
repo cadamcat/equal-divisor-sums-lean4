@@ -6,7 +6,7 @@ open scoped ContDiff
 namespace Erdos824.Succ.S56Core
 open Erdos821.Blueprint.Analytic
 
-/-- The §5 Cauchy majorants. Only the lower e edge moves, by L^(-Cs),
+/-- The §6 Cauchy majorants. Only the lower e edge moves, by L^(-Cs),
 so every derivative costs a fixed power of L per order. Cs and all these
 costs are fixed before K₀. A scaled smoothTransition construction suffices. -/
 def DyadicMajorantsTask : Prop :=

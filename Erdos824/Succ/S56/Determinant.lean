@@ -1,6 +1,6 @@
 import Mathlib
 
-/-! Exact integer determinant identities for §5's Type II parametrization. -/
+/-! Exact integer determinant identities for §6's Type II parametrization. -/
 
 namespace Erdos824.Succ.S56
 

@@ -60,7 +60,7 @@ def Discrepancy (x B : ℝ) (a : ℕ → ℂ) : Prop :=
       ‖∑ m ∈ Finset.Icc ⌈a₀⌉₊ ⌊b₀⌋₊, a m * χ (m : ZMod r) * twist t m / (m : ℂ)‖
         ≤ (L x) ^ (-B)
 
-/- §1 inputs actually used by §§5–6. -/
+/- Classical inputs (package P1) used by §§5–6. -/
 
 def primitiveMean (r : ℕ) (s : Finset ℕ) (a : ℕ → ℂ) : ℝ :=
   if hr : 0 < r then

@@ -4,8 +4,9 @@ import Erdos821.P1.ClassicalInputs
 /-!
 # The successor supply from the package interfaces
 
-JSP-000677's ten packages with the five sign-bearing ones (P6 Type II, P7 Type I, P8 densities,
-P9, P10 and the count) replaced by their `Erdos824.Succ` forks. The glue proof has no placeholder.
+The packages of the Erdős 821 formalization, with the sign-bearing ones (P6 Type II, P7 Type I,
+P8 densities, P9, P10 prime extraction) and the final count replaced by their `Erdos824.Succ` forks.
+The glue proof has no placeholder.
 -/
 
 namespace Erdos824.Succ

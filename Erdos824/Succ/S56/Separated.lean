@@ -37,7 +37,7 @@ def offDiagonalSum (E U V : ℝ) (etae etan : ℝ → ℝ)
             star (alpha m' * ah ((m' * n + 1) / (2 * e)))
         else 0
 
-/-- The post-Cauchy half of §5. K₀ is fixed data here. Exact signed determinant
+/-- The post-Cauchy half of §6. K₀ is fixed data here. Exact signed determinant
 reconstruction, character congruence, and Fourier separation in log m, log m',
 log z turn this literal off-diagonal sum into ShiftEstimate correlations.
 All cutoff derivative constants and powers are fixed before B. -/

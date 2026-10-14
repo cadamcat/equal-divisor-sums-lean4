@@ -11,7 +11,7 @@ end Erdos824.Succ.S56Core
 
 namespace Erdos824.Succ
 open Erdos821.Blueprint
-/-- Section 5 Type II estimate, with shifted cancellation as its input. -/
+/-- Section 6 Type II estimate, with shifted cancellation as its input. -/
 theorem typeII_estimate_proof (hc : ClassicalInputs) (hshift : ShiftEstimate) :
     TypeIIEstimate :=
   S56Core.typeII_of_slot_split hc hshift S56Core.slot_coefficient_split

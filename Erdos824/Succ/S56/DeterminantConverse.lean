@@ -1,6 +1,6 @@
 import Mathlib
 
-/-! Converse reconstruction for §5. Coprimality retains exact divisibility. -/
+/-! Converse reconstruction for §6. Coprimality retains exact divisibility. -/
 
 namespace Erdos824.Succ.S56
 

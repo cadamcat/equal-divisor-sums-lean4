@@ -1,6 +1,6 @@
 import Erdos824.Succ.S10Prime.Basic
 
-/-! Two Type II prime-to-proxy replacements in the balanced window (paper §6,
+/-! Two Type II prime-to-proxy replacements in the balanced window (paper §7,
 balanced composites). The first prime indicator is replaced using Type II with
 the proxy discrepancy; the second is replaced by Type II with the factor roles
 exchanged, the remaining coefficient being a proxy bounded by one. The product

@@ -1,7 +1,7 @@
 import Erdos824.Succ.Blueprint.Extraction
 import Mathlib.NumberTheory.AbelSummation
 
-/-! Finite-sum bookkeeping for the §6 extraction argument. -/
+/-! Finite-sum bookkeeping for the §7 extraction argument. -/
 noncomputable section
 open scoped BigOperators ContDiff
 namespace Erdos824.Succ.P10
