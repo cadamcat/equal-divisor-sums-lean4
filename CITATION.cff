@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this formalization, please cite it using the metadata from this file."
+type: software
+title: "equal-divisor-sums-lean4: A Lean 4 proof of Erdős Problem 824"
+abstract: >-
+  A Lean 4 proof that the number h(x) of coprime pairs 1 ≤ a < b < x with
+  σ(a) = σ(b) exceeds x^(2-ε) for every ε > 0 and all large x (Erdős Problem 824),
+  following Li and Zhuang's reduction to primes with smooth successors and an
+  adaptation of the weighted-dilation-graph argument.
+authors:
+  - family-names: Xu
+    given-names: Yao
+    alias: cadamcat
+repository-code: "https://github.com/cadamcat/equal-divisor-sums-lean4"
+url: "https://github.com/cadamcat/equal-divisor-sums-lean4"
+license: Apache-2.0
+version: 1.0.0
+keywords:
+  - Lean 4
+  - formalization
+  - sum of divisors
+  - smooth shifted primes
+  - Erdős problems
