@@ -20,7 +20,8 @@ def typeIISum (D : BandData) (x : ℝ) (jstar : ℕ) (U V : ℝ)
       (D.weight x jstar ((m * n + 1) / 2) * psi (((m * n + 1) / 2 : ℕ) / x) : ℝ) * a m * b n
     else 0
 
-/-- The Type II estimate for `typeIISum`; otherwise identical to JSP-000677's. -/
+/-- The Type II estimate for `typeIISum`; otherwise identical to the Erdős 821
+formalization's. -/
 def TypeIIEstimate : Prop :=
   ∀ D : BandData, D.Valid → ∀ Dsave bstar C : ℝ,
     0 < Dsave → 0 < bstar → 0 < C → ∀ jstar : ℕ,

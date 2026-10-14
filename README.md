@@ -1,6 +1,6 @@
 # Coprime pairs with equal divisor sums in Lean 4
 
-Let `h(x)` count the pairs `1 ≤ a < b < x` with `gcd(a, b) = 1` and `σ(a) = σ(b)`. This repository proves in Lean 4 that `h(x) > x^(2−ε)` for every `ε > 0` and all sufficiently large `x`. This is [Erdős Problem #824](https://www.erdosproblems.com/824) and problem JSP-000680 of the Justin Sun Prize catalog.
+Let `h(x)` count the pairs `1 ≤ a < b < x` with `gcd(a, b) = 1` and `σ(a) = σ(b)`. This repository proves in Lean 4 that `h(x) > x^(2−ε)` for every `ε > 0` and all sufficiently large `x`. This is [Erdős Problem #824](https://www.erdosproblems.com/824).
 
 - **Author:** Yao Xu ([@cadamcat](https://github.com/cadamcat)); see [authors and attribution](AUTHORS.md).
 - Developed with AI assistance (Claude Code and Codex); all proofs are verified by the Lean 4 kernel.

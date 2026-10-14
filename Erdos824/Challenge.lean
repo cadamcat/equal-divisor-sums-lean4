@@ -1,7 +1,7 @@
 import Mathlib
 
 /-!
-# Erdős Problem 824 (JSP-000680)
+# Erdős Problem 824
 
 Let `h x` count the pairs `1 ≤ a < b < x` with `gcd(a, b) = 1` and `σ(a) = σ(b)`. Then
 `h x > x ^ (2 - ε)` for every `ε > 0` and all sufficiently large `x`.

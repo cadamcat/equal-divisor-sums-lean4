@@ -4,7 +4,8 @@ import Erdos821.Blueprint.Proxy
 # P8 for the successor sign
 
 Only the second clause of `ProxyDensities` mentions the sign: `mn = 2u + 1` becomes
-`mn + 1 = 2u`. The discrepancy, density identities and sieve products are JSP-000677's.
+`mn + 1 = 2u`. The discrepancy, density identities and sieve products are
+those of the Erdős 821 formalization (totient-fibers-lean4).
 -/
 
 noncomputable section

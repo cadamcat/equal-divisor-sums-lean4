@@ -3,10 +3,11 @@ import Erdos821.Blueprint.Candidate
 /-!
 # P7 for the successor sign: prime mass, Type I remainder
 
-The candidate data, geometry, bounds and weighted mass of JSP-000677 do not involve `2u + 1` and
-are reused unchanged. Only the prime mass, the Type I remainder and the Type I estimate change,
-from `2u + 1` to `2u - 1`. They are added to the `CandidateData` namespace with a `succ` prefix so
-that dot notation (`C.succPrimeMass`) works on the shared structure.
+The candidate data, geometry, bounds and weighted mass of the Erdős 821 formalization
+(totient-fibers-lean4) do not involve `2u + 1` and are reused unchanged. Only the prime mass,
+the Type I remainder and the Type I estimate change, from `2u + 1` to `2u - 1`. They are added to
+the `CandidateData` namespace with a `succ` prefix so that dot notation (`C.succPrimeMass`) works
+on the shared structure.
 -/
 
 noncomputable section
