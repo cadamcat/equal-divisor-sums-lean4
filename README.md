@@ -18,6 +18,8 @@ theorem Erdos824.erdos_824 :
 
 `h` is Formal Conjectures' definition (`FormalConjectures/ErdosProblems/824.lean`), and the theorem is the right-hand side of its `erdos_824`, whose answer is `True`. [Challenge.lean](Challenge.lean) states it with Mathlib definitions only, and [comparator.json](comparator.json) configures [Comparator](https://github.com/leanprover/comparator) to compare the two.
 
+Google DeepMind's Formal Conjectures marks `Erdos824.erdos_824` as solved and links this proof as its formal proof ([824.lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/824.lean), [PR #7315](https://github.com/google-deepmind/formal-conjectures/pull/7315)).
+
 ## Route
 
 1. **Conditional bound** ([Erdos824/LiZhuang](Erdos824/LiZhuang)). Li and Zhuang's Theorem 1.3, following Pollack and Pomerance: if for every `0 < δ < 1/4` at least `y^(1−o(1))` primes `p ≤ 5y` have every prime factor of `p + 1` at most `y^δ`, then the bound holds. This is their Lean code, ported.

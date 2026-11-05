@@ -18,6 +18,8 @@ theorem Erdos824.erdos_824 :
 
 `h` 是 Formal Conjectures 的定义（`FormalConjectures/ErdosProblems/824.lean`），该定理是其 `erdos_824` 右端的结论；该猜想的答案为 `True`。[Challenge.lean](Challenge.lean) 只用 Mathlib 的定义表述该结论，而 [comparator.json](comparator.json) 配置 [Comparator](https://github.com/leanprover/comparator) 对两者进行比较。
 
+Google DeepMind 的 Formal Conjectures 仓库已将 `Erdos824.erdos_824` 标记为已解决，并把本仓库的证明链接为它的形式化证明（[824.lean](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/824.lean)，[PR #7315](https://github.com/google-deepmind/formal-conjectures/pull/7315)）。
+
 ## 路线
 
 1. **条件界**（[Erdos824/LiZhuang](Erdos824/LiZhuang)）。Li 和 Zhuang 的定理 1.3，沿用 Pollack 和 Pomerance 的方法：如果对每个 `0 < δ < 1/4`，至少有 `y^(1−o(1))` 个 `p ≤ 5y` 的素数，其 `p + 1` 的每个素因子都不超过 `y^δ`，那么该界成立。这部分是移植的他们的 Lean 代码。
